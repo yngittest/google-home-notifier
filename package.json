@@ -1,0 +1,10 @@
+{
+  "name": "firebase-app",
+  "version": "0.0.0",
+  "description": "",
+  "license": "MIT",
+  "dependencies": {
+    "firebase": "^4.11.0",
+    "google-home-notifier": "^1.2.0"
+  }
+}
