@@ -23,6 +23,11 @@ db.ref(path).on("value", function(changedSnapshot) {
         const command = "sh /usr/src/app/announce/index.sh ";
         const content = words.slice(1, words.length).join(" ");
         return command + content.replace(/'/g,"\\'");
+      },
+
+      "chigau": () => {
+        const command = "sh /usr/src/app/chigau/index.sh ";
+        return command;
       }
     })();
 
